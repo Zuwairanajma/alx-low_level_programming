@@ -3,7 +3,7 @@
 /**
  * print_line - check for a digit
  * @n : number of _ to be printed
- * Return: Always 0.
+ * Return: void
  */
 void print_line(int n)
 {
@@ -11,7 +11,7 @@ void print_line(int n)
 
 	while (i < n && n > 0)
 	{
-		putchar('_');
+		_putchar('_');
 		i++;
 	}
 	_putchar('\n');
